@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🍅 Pomodoro Timer</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>🍅 Pomodoro Timer</h1>
+
+      <!-- Progress chizig'i -->
+      <canvas id="progress" class="progress" width="400" height="10"></canvas>
+
+      <div class="pomodoro">
+        <h1 id="time">25:00</h1>
+
+        <div class="controls">
+          <button id="start">▶ Start</button>
+          <button id="pause">⏸ Pause</button>
+          <button id="reset">⏹ Reset</button>
+        </div>
+      </div>
+
+      <div class="mode-controls">
+        <button id="work" class="mode">Work</button>
+        <button id="short" class="mode">Short Break</button>
+        <button id="long" class="mode">Long Break</button>
+      </div>
+
+      <div class="time-list" id="time-list"></div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025. Coded by <b>Muhammad J.A</b></p>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
